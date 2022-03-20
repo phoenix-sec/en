@@ -172,20 +172,22 @@ Bg-color Style*/
 /*
 Default Btn Area Style*/
 .default-btn {
-  font-size: 16px;
-  color: #ffffff;
-  padding: 15px 30px;
-  line-height: 1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  text-transform: capitalize;
-  position: relative;
-  cursor: pointer;
-  text-align: center;
-  overflow: hidden;
-  z-index: 1;
-  background-color: #d80650;
-  border-radius: 10px;
+ font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 16px 30px;
+    line-height: 1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #d80650;
+    border-radius: 10px;
+    margin-top: 4px
 }
 
 .default-btn i {
