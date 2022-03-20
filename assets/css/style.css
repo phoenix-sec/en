@@ -1,47 +1,3 @@
-/*
-@File: Seku Template Styles
-
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-******************************************* 
-** - DEFAULT AREA STYLE - **
-
-** - Default Btn Area Style
-** - Read More Area Style
-
-** - HOME PAGE STYLE - **
-
-** - Header Area Style
-** - Nav Area
-** - Banner Area Style
-** - Hero Slider Area Style
-** - Features Area Style
-** - Partner Area Style
-** - Security Area Style
-** - Approach Area Style
-** - Solutions Area Style
-** - Electronic Area Style
-** - Complete Area Style
-** - Client Area Style
-** - Cybersecurity Area Style
-** - Blog Area Style
-** - Footer Top Area Style
-** - Footer Bottom Area Style
-
-** - OTHER STYLE AREA - **
-
-** - Preloader Area Style
-** - Go Top Style
-** - Video wave Style
-** - Section Title Area Style
-** - Nice select Area
-
-*******************************************
-/*
 
 
 /*
@@ -175,12 +131,12 @@ textarea.form-control {
 }
 
 .ptb-100 {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .pb-100 {
@@ -233,6 +189,7 @@ Default Btn Area Style*/
   overflow: hidden;
   z-index: 1;
   background-color: #d80650;
+  border-radius: 10px;
 }
 
 .default-btn i {
@@ -268,7 +225,7 @@ Default Btn Area Style*/
 }
 
 .default-btn.active {
-  margin-left: 20px;
+  margin-left: 5px;
   color: #0e0129;
   background-color: #ffffff;
 }
@@ -2935,7 +2892,7 @@ HOME SIX STYLE AREA
 Section Title Area Style*/
 .section-title-six {
   max-width: 660px;
-  margin: -6px auto 60px;
+  margin: -100px auto 60px;
   text-align: center;
   position: relative;
 }
@@ -2944,8 +2901,10 @@ Section Title Area Style*/
   color: #d80650;
   display: block;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
+  font-size: 25px;
+
 }
 
 .section-title-six h2 {
@@ -3170,6 +3129,8 @@ Nav Area Style
           box-shadow: none;
   padding-top: 0;
   padding-bottom: 0;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 8%);
+
 }
 
 .nav-area-six .navbar-area .main-nav .navbar {
@@ -3179,11 +3140,11 @@ Nav Area Style
 
 .nav-area-six .navbar-area .main-nav nav .navbar-nav {
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 30px;
 }
 
 .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 18px;
   color: #0e0129;
   text-transform: capitalize;
   -webkit-transition: all 0.5s;
@@ -3302,7 +3263,7 @@ Nav Area Style
   right: 0;
   margin: auto;
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #fff;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -3580,6 +3541,10 @@ Sidebar Area Style
   background-color: #d80650;
 }
 
+.black{
+  color: black;
+}
+
 .sidebar-modal .contact-us ul {
   padding: 0;
   margin: 0;
@@ -3754,7 +3719,7 @@ Banner Area Style
   height: 100%;
   position: relative;
   z-index: 1;
-  padding-top: 150px;
+  padding-top: 30px;
   padding-bottom: 70px;
 }
 
@@ -3768,7 +3733,7 @@ Banner Area Style
   max-width: 690px;
   z-index: 1;
   overflow: hidden;
-  margin-bottom: -8px;
+  margin-bottom: 70px;
 }
 
 .banner-area-six .banner-text h1 {
@@ -3847,7 +3812,7 @@ Services Area Style
 
 .services-slider-content .thumbs-wrap ul li {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 10px;
   cursor: pointer;
   border-bottom: 2px solid #212121;
@@ -4224,6 +4189,7 @@ Testimonials Area Style
   width: auto;
   margin: 0 auto 20px;
   border-radius: 50%;
+  width: 75px;
 }
 
 .testimonials .quote {
@@ -4479,9 +4445,9 @@ Footer Top Area Style
 }
 
 .single-footer-widget .social-icon li a i {
-  width: 30px;
-  height: 30px;
-  line-height: 31px;
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
   color: #ffffff;
   text-align: center;
   -webkit-transition: all 0.5s;
@@ -4570,6 +4536,7 @@ Copy Right Area Style
   border-top: 1px solid #e1e2e6;
   padding-top: 15px;
   padding-bottom: 15px;
+  height: 100px;
 }
 
 .copy-right-area p {
